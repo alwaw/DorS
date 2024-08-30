@@ -1,0 +1,31 @@
+/* Resetowanie stylów */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: rgb(136, 76, 63); /* Kolor tekstu dopasowany do koloru tła */
+  background-color: rgb(136, 76, 63); /* Ustawienie jednolitego koloru tła */
+}
+
+/* Styl dla linków */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Ustawienia dla ciemnego motywu */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: white;
+    background-color: rgb(136, 76, 63); /* Kolor tła w trybie ciemnym */
+  }
+}
