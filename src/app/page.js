@@ -6,12 +6,14 @@ import Navbar from "./components/Navbar/Navbar";
 import ImageHolder from "./components/ImageHolder/ImageHolder";
 import Header from "./components/Header/Header";
 
+import photo1 from "../../public/with-laptop.jpg";
+
 export default function Home() {
   return (
     <>
       <Navbar />
       <div className={styles.wrapper_two_sides}>
-        <ImageHolder src={"/with-laptop.jpg"} alt={"assistant's big picture"} />
+        <ImageHolder src={photo1} alt={"assistant's big picture"} />
         <Header>
           Oszczędzam <br />
           <span className={styles.emphasis_1}>

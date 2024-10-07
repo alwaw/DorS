@@ -4,12 +4,12 @@ import React from "react";
 import styles from "./Navbar.module.css";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import logo from "../../../../public/logo.png"
 
 function Navbar() {
   return (
     <header className={styles.header}>
-      <img className={styles.logo} alt="logo strony" src="/logo.png" />
-      <div className={styles.links_buttons}>
+      <img className={styles.logo} alt="logo strony" src={logo}/>
         <motion.div className={styles.link_button} whileHover={{ scale: 1.1 }}>
           <Link href="/jak-to-dziala">Jak to działa?</Link>
         </motion.div>
