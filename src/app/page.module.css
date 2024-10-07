@@ -1,0 +1,21 @@
+/*wrapper photo + header */
+
+.wrapper_two_sides {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/* headers styles: */
+
+.emphasis_1 {
+    font-size: 100px;
+}
+
+.emphasis_2 {
+    font-size: 60px;
+}
+
+
+
