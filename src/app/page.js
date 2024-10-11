@@ -6,14 +6,12 @@ import Navbar from "./components/Navbar/Navbar";
 import ImageHolder from "./components/ImageHolder/ImageHolder";
 import Header from "./components/Header/Header";
 
-import photo1 from "../../public/with-laptop.jpg";
-
 export default function Home() {
   return (
     <>
       <Navbar />
       <div className={styles.wrapper_two_sides}>
-        <ImageHolder src={photo1} alt={"assistant's big picture"} />
+        <ImageHolder src="/with-laptop.jpg" alt="assistant's big picture" />
         <Header>
           Oszczędzam <br />
           <span className={styles.emphasis_1}>
@@ -37,3 +35,4 @@ export default function Home() {
 //todo:
 //1 - dodać przycisk CTA do pierwszego segmentu strony
 //2 - dodać widok na urządzenia mobilne
+//3 - czy obrazki wreszcie działają???

@@ -4,28 +4,34 @@ import React from "react";
 import styles from "./Navbar.module.css";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import logo from "../../../../public/logo.png"
+import Image from "next/image";
 
 function Navbar() {
   return (
     <header className={styles.header}>
-      <img className={styles.logo} alt="logo strony" src={logo}/>
-        <motion.div className={styles.link_button} whileHover={{ scale: 1.1 }}>
-          <Link href="/jak-to-dziala">Jak to działa?</Link>
-        </motion.div>
+      <Image
+        src="/logo.png"
+        alt="logo strony"
+        className={styles.logo}
+        width={120}
+        height={80}
+        sizes="20vw"
+      />
+      <motion.div className={styles.link_button} whileHover={{ scale: 1.1 }}>
+        <Link href="/jak-to-dziala">Jak to działa?</Link>
+      </motion.div>
 
-        <motion.div className={styles.link_button} whileHover={{ scale: 1.1 }}>
-          <Link className={styles.link_button} href="/o-mnie">
-            O mnie
-          </Link>
-        </motion.div>
+      <motion.div className={styles.link_button} whileHover={{ scale: 1.1 }}>
+        <Link className={styles.link_button} href="/o-mnie">
+          O mnie
+        </Link>
+      </motion.div>
 
-        <motion.div className={styles.link_button} whileHover={{ scale: 1.1 }}>
-          <Link className={styles.link_button_contact} href="/kontakt">
-            Skontaktuj się
-          </Link>
-        </motion.div>
-      </div>
+      <motion.div className={styles.link_button} whileHover={{ scale: 1.1 }}>
+        <Link className={styles.link_button_contact} href="/kontakt">
+          Skontaktuj się
+        </Link>
+      </motion.div>
     </header>
   );
 }
