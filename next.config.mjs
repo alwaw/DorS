@@ -1,6 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  basePath: "/DorS",
-};
+const nextConfig = {};
 
 export default nextConfig;

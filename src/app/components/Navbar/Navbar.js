@@ -5,13 +5,13 @@ import styles from "./Navbar.module.css";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import logo from "/misc/logo.png";
+// import logo from "/misc/logo.png";
 
 function Navbar() {
   return (
     <header className={styles.header}>
       <Image
-        src={logo}
+        src="/misc/logo.png"
         alt="logo strony"
         className={styles.logo}
         width={120}
