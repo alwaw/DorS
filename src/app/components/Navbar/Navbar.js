@@ -5,7 +5,7 @@ import styles from "./Navbar.module.css";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import logo from "../../../../public/logo.png";
+import logo from "/misc/logo.png";
 
 function Navbar() {
   return (

@@ -5,7 +5,7 @@ import Link from "next/link";
 import Navbar from "./components/Navbar/Navbar";
 import ImageHolder from "./components/ImageHolder/ImageHolder";
 import Header from "./components/Header/Header";
-import laptopPhoto from "../../public/with-laptop.jpg";
+import laptopPhoto from "/photos/with-laptop.jpg";
 
 export default function Home() {
   return (
