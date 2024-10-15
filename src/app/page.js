@@ -15,7 +15,7 @@ export default function Home() {
       <Navbar />
       <div className={styles.wrapper_two_sides}>
         <ImageHolder
-          src={"/DorS/photos/with-laptop.jpg"}
+          src={"/DorS/photos/withLaptop.jpg"}
           alt="assistant's big picture"
         />
         <Header>
