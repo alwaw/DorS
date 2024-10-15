@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <header className={styles.header}>
       <Image
-        src="/misc/logo.png"
+        src="/DorS/misc/logo.png"
         alt="logo strony"
         className={styles.logo}
         width={120}
